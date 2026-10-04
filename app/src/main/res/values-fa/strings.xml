@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">مرسانا شیلد</string>
+  <string name="open_browser">مرورگر رو باز کن</string>
+  <string name="clear_logs">لاگ‌ها رو پاک کن</string>
+  <string name="FeedbackActivity.DefaultText">اگه نظری داری، یا سایتی هست که کار نمی‌کنه، یا این فرم برات باز نمی‌شه، بیزحمت یه پیامک به شماره &lt;a href=\"sms:+989013700379\"&gt;۰۹۰۱۳۷۰۰۳۷۹&lt;/a&gt; بفرست.</string>  <string name="FeedbackActivity.Success">ممنون که نظرت رو گفتی</string>
+  <string name="FeedbackActivity.Failure">فرستاده نشد. یه بار دیگه امتحان کن</string>
+  <string name="StatusActivity.VpnRevokedTitle">وی‌پی‌ان شیر و خورشید قطع شد</string>
+  <string name="StatusActivity.VpnRevokedMessage">وی‌پی‌ان رو خودت یا یه اپ دیگه قطع کرد. چند تا اپ وی‌پی‌ان نمی‌تونن همزمان با هم کار کنن. یه چک کن ببین اپ وی‌پی‌ان دیگه‌ای نصب داری و داره اجرا می‌شه یا نه.</string>
+  <string name="StatusActivity.VpnPromptCancelledTitle">وی‌پی‌ان شیر و خورشید نمی‌تونه شروع کنه</string>
+  <string name="StatusActivity.VpnPromptCancelledMessage">نمی‌شه وی‌پی‌ان رو اجرا کرد. چند تا اپ وی‌پی‌ان نمی‌تونن همزمان کار کنن. یه چک کن ببین اپ وی‌پی‌ان دیگه‌ای نصب داری یا روی حالت «همیشه روشن» تنظیم شده.</string>
+  <string name="selected_region_currently_not_available">این منطقه الان در دسترس نیست، یه منطقه دیگه انتخاب کن.</string>
+  <string name="ads_consent_preference_category_title">شخصی‌سازی تبلیغات</string>
+  <string name="ads_consent_preference_dialog_preference_message">مطمئنی می‌خوای تنظیمات تبلیغات شخصی‌سازی‌شده رو از اول تنظیم کنی؟</string>
+  <string name="ads_consent_preference_title">تنظیم مجدد تبلیغات شخصی‌سازی‌شده</string>
+  <string name="ads_consent_preference_dialog_title">تنظیم مجدد</string>
+  <string name="ads_consent_preference_summary">تنظیماتت رو از نو کن تا شبکه‌های تبلیغاتی بتونن از کوکی و اطلاعات شخصی‌ت استفاده کنن.</string>
+  <string name="preference_language_selection_summary">زبون رو انتخاب کن</string>
+  <string name="preference_language_selection_title">زبون</string>
+  <string name="preference_language_title">انتخاب زبون</string>
+  <string name="preference_language_default_language">زبون پیش‌فرض</string>
+  <string name="preference_category_advanced_title">تنظیمات پیشرفته</string>
+  <string name="preference_category_info_title">درباره</string>
+  <!--Generic string to say OK or acknowledge-->
+  <string name="label_ok">باشه</string>
+  <string name="preference_navigate_to_vpn_setting_title">وی‌پی‌ان همیشه روشن</string>
+  <string name="preference_navigate_to_vpn_setting_summary">برو تو تنظیمات گوشی و وی‌پی‌ان همیشه روشن رو فعال کن</string>
+  <!--Generic negative button label.-->
+  <string name="lbl_no">نه</string>
+  <!--Generic positive button label.-->
+  <string name="lbl_yes">آره</string>
+  <!--"Please open Psiphon to keep connecting" notification title-->
+  <string name="notification_title_action_required">یه کاری باید بکنی!</string>
+  <!--Message shown in notification informing the user that Psiphon application needs to be open in order to finish connection sequence. Clicking this notification also opens the app.-->
+  <string name="notification_text_open_psiphon_to_finish_connecting">برای اینکه وصل شی، اپ رو باز کن.</string>
+  <!--"Selected region is not available" notification title-->
+  <string name="notification_title_region_not_available">این منطقه در دسترس نیست</string>
+  <!--Message shown in notification informing the user that selected region is not currently available-->
+  <string name="notification_text_region_not_available">اپ رو باز کن و یه منطقه دیگه انتخاب کن.</string>
+  <!--"VPN stopped" notification title-->
+  <string name="notification_title_vpn_revoked">وی‌پی‌ان قطع شد</string>
+  <!--Message shown in notification informing the user that VPN has been disconnected by another app or revoked by the user-->
+  <string name="notification_text_vpn_revoked">وی‌پی‌ان رو خودت یا یه اپ دیگه قطع کرد.</string>
+  <!--Description for an app icon image-->
+  <string name="description_app_icon">آیکون اپ</string>
+  <string name="bad_vpn_exclusion_setting_alert_title">تنظیمات وی‌پی‌ان درست نیست</string>
+  <string name="bad_vpn_exclusion_whitelist_alert_message">تو این حالت باید حداقل یه اپ انتخاب کنی!</string>
+  <string name="bad_vpn_exclusion_blacklist_alert_message">تو این حالت باید حداقل یه اپ رو از لیست دربیاری!</string>
+  <string name="vpn_exclusions_preference_not_available_summary">اندروید ۵ به بالا لازمه</string>
+  <string name="vpn_always_on_preference_not_available_summary">اندروید ۷ به بالا لازمه</string>
+  <string name="vpn_exclusions_tip_summary">برای حالت فقط‌مرورگر، فقط یه مرورگر انتخاب کن</string>
+  <!--Title of the toolbar notification which is shown to the user when Psiphon server detects an unsafe Internet traffic-->
+  <string name="unsafe_traffic_alert_notification_title">MalAware</string>
+  <!--Content of the toolbar notification which is shown to the user when Psiphon server detects an unsafe Internet traffic-->
+  <string name="unsafe_traffic_alert_notification_message">یه ترافیک بدافستاری پیدا شد! برای اطلاعات بیشتر بزن روش.</string>
+  <!--Title of the alert dialog which is shown to the user when they click toolbar notification of unsafe Internet traffic-->
+  <string name="unsafe_traffic_alert_dialog_title">MalAware</string>
+  <!--Content of the alert dialog which is shown to the user when they click toolbar notification of unsafe Internet traffic-->
+  <string name="unsafe_traffic_alert_dialog_message">دسترسی به یه بدافزار مسدود شد. لینک‌های زیر رو دنبال کن تا بیشتر بدونی. 
+یه بدافزار پیدا شد. </string>
+  <!--Title of the alert dialog which prompts the user to enable or disable unsafe Internet traffic alerts-->
+  <string name="unsafe_traffic_alert_prompt_title">MalAware</string>
+  <!--Content of the alert dialog which prompts the user to enable or disable unsafe Internet traffic alerts-->
+  <string name="unsafe_traffic_alert_prompt_message">دسترسی به بدافزارها خودکار بلاک می‌شه. می‌خوای وقتی همچین چیزی دیدیم بهت خبر بدیم؟
+این تنظیم رو بعداً می‌تونی از «گزینه‌های بیشتر» عوض کنی.</string>
+  <!--More info with a URL link in the contents of the alert dialog which prompts the user to enable or disable unsafe Internet traffic alerts-->
+  <string name="unsafe_traffic_alert_prompt_message_more_info">اینجا بیشتر درباره MalAware بخون:</string>
+  <!--"Upstream proxy error" notification title-->
+  <string name="notification_title_upstream_proxy_error">پروکسی بالادستی خطا داد</string>
+  <!--"Upstream proxy error" notification text-->
+  <string name="notification_text_upstream_proxy_error">اپ رو باز کن و تنظیمات پروکسی رو چک کن.</string>
+  <!--"Upstream proxy error" alert dialog title-->
+  <string name="upstream_proxy_error_alert_title">مشکل پروکسی</string>
+  <!--"Upstream proxy error" alert dialog message-->
+  <string name="upstream_proxy_error_alert_message">برای استفاده از یه پروکسی بالادستی تنظیم کردی، ولی انگار از طریق اون پروکسی نمی‌تونیم به سرور وصل شیم.\n\nتنظیمات رو درست کن و یه بار دیگه امتحان کن.\n\nاگه بیشتر می‌خوای بدونی، لاگ‌ها رو ببین.</string>
+  <!--Notification title for the 'Psiphon crash detected' notification-->
+  <string name="psiphon_native_crash_notification_title">شیر و خورشید کرش کرد</string>
+  <!--Notification short message for the 'Psiphon crash detected' notification-->
+  <string name="psiphon_native_crash_notification_msg">بیزحمت برامون فیدبک بفرست.</string>
+  <!--Notification longer message for the 'Psiphon crash detected' notification-->
+  <string name="psiphon_native_crash_notification_msg_long">برای فرستادن فیدبک روی این اعلان بزن. اینجوری ما زودتر می‌فهمیم مشکل چیه و سریع‌تر درستش می‌کنیم.</string>
+  <!--Data collection disclosure prompt button text-->
+  <string name="vpn_data_collection_disclosure_accept_btn_text">اوکی</string>
+  <!--Data collection disclosure prompt title-->
+  <string name="vpn_data_collection_disclosure_prompt_title">چی جمع می‌کنیم ازت</string>
+  <!--First sentence of the data collection disclosure prompt body. The format qualifier %s will be replaced by the app name, either 'Psiphon' or 'Psiphon Pro' and should be placed according to the rules of the translation language.-->
+  <string name="vpn_data_collection_disclosure_top">%s از وی‌پی‌ان اندروید استفاده می‌کنه تا بدون سانسور به اینترنت وصل شی. این اطلاعات رو نگه می‌داریم:</string>
+  <!--Data collection disclosure list item-->
+  <string name="vpn_data_collection_disclosure_bp1">شهر، کشور، ISP‌ت و (اگه بخوای) موقعیت تقریبی‌ت. شهر و کشور و ISP از روی آی‌پی‌ای که باهاش به سرورهای ما وصل می‌شی درمیاد و خود آی‌پی هیچ‌وقت ذخیره نمی‌شه. اینا رو برای آمار و عملکرد و سالم بودن سرویس جمع می‌کنیم.</string>
+  <!--Data collection disclosure list item-->
+  <string name="vpn_data_collection_disclosure_bp2">ایمیلت، وقتی برامون فیدبک یا کرش گزارش می‌فرستی. گذاشتن ایمیل تو فیدبک اختیاریه.</string>
+  <!--Data collection disclosure list item-->
+  <string name="vpn_data_collection_disclosure_bp3">اسم کاربری، رمز و (اگه بخوای) ایمیل حساب PsiCash‌ت.</string>
+  <!--Notifications permission rationale alert title. The format qualifier %s will be replaced by the app name, either 'Psiphon' or 'Psiphon Pro' and should be placed according to the rules of the translation language.-->
+  <string name="notifications_permission_rationale_title">اعلان‌های %s</string>
+  <!--First sentence of the notifications permission rationale message. The format qualifier %s will be replaced by the app name, either 'Psiphon' or 'Psiphon Pro' and should be placed according to the rules of the translation language.-->
+  <string name="notifications_permission_rationale_intro">وقتی اپ تو پس‌زمینه بازه، %s از اعلان‌ها برای خبر دادن چیزای مهم استفاده می‌کنه. اعلان‌ها اینان:</string>
+  <!--Notifications permission rationale list item-->
+  <string name="notifications_permission_rationale_vpn_state_bp">وضعیت وی‌پی‌انت عوض بشه</string>
+  <!--Notifications permission rationale list item-->
+  <string name="notifications_permission_rationale_connection_problems_bp">مشکل تو اتصال پیش بیاد</string>
+  <!--Notifications permission rationale list item-->
+  <string name="notifications_permission_rationale_crash_reports_bp">گزارش کرش</string>
+  <!--Notifications permission rationale list item, do not translate or transliterate "MalAware"-->
+  <string name="notifications_permission_rationale_malaware_alerts_bp">هشدارهای MalAware</string>
+  <!--Notifications permission rationale list item-->
+  <string name="notifications_permission_rationale_upgrade_available_bp">نسخه جدید اپ بیاد</string>
+  <!--Notifications permission rationale last sentence-->
+  <string name="notifications_permission_rationale_disable_any_time">هر وقت خواستی می‌تونی اعلان‌ها رو از تنظیمات اپ خاموش کنی.</string>
+  <!--A message shown on the blocking overlay of the PXE experiment screen while Psiphon is connecting to the server.
+    Note: 'Psiphon' should not be translated or transliterated.-->
+  <string name="pxe_web_wait_tunnel_connecting">یه کم صبر کن، داره وصل می‌شه</string>
+  <!--Generic 'close' button label-->
+  <string name="close_btn_label">ببند</string>
+  <!--Generic 'close' alert title-->
+  <string name="close_alert_title">بستن</string>
+  <!--Generic 'close' alert prompt message-->
+  <string name="close_alert_message">می‌خوای این پنجره رو ببندی؟</string>
+  <!--Toast message shown briefly after user completes PXE experiment tests-->
+  <string name="pxe_submit_thank_you">مرسی که کمک کردی!</string>
+  <!--Message telling users to enable NFC in system settings in order to use NFC connection data exchange feature-->
+  <string name="enable_nfc_in_settings">برو تو تنظیمات و NFC رو روشن کن.</string>
+  <!--NFC connection data exchange error message-->
+  <string name="nfc_export_data_empty">ارتباط با اون یکی دستگاه خطا داد. یه چک کن ببین اپ روی اون دستگاه هم باز و وصله، بعد یه بار دیگه امتحان کن.</string>
+  <!--NFC connection data exchange message when waiting for interaction with host device-->
+  <string name="nfc_reader_default_message">منتظر NFC با اون یکی دستگاهیم</string>
+  <!--NFC connection data exchange success message-->
+  <string name="nfc_export_success">اطلاعات اتصال با موفقیت رد و بدل شد!</string>
+  <!--NFC connection data exchange error message-->
+  <string name="nfc_export_bad_data">ارتباط با اون یکی دستگاه خطا داد. یه بار دیگه امتحان کن.</string>
+  <!--NFC connection data exchange error message-->
+  <string name="nfc_export_lost_tag">دستگاه تکون خورد و ارتباط قطع شد. یه بار دیگه امتحان کن.</string>
+  <!--NFC connection data exchange error message-->
+  <string name="nfc_export_unsupported_tag">یه تگ NFC پیدا شد که پشتیبانی نمی‌شه. مطمئنی اپ روی اون یکی دستگاه هم باز و وصله؟</string>
+  <!--NFC connection data exchange message when devices are connected and data is being exchanged-->
+  <string name="nfc_export_reading_data">داره اطلاعات می‌خونه\u2026</string>
+  <!--Tooltip appearing on long press of the button that opens NFC connection exchange dialog-->
+  <string name="help_connect_fab_tooltip">برای وصل شدن کمک بگیر</string>
+  <!--Label on the button that opens NFC exchange onboarding screen-->
+  <string name="help_btn_label">کمک</string>
+  <!--NFC connection exchange onboarding / tutorial Skip button label, closes the tutorial dialog when pressed-->
+  <string name="onboarding_skip">رد کن</string>
+  <!--NFC connection exchange onboarding / tutorial Next button label, shows next slide when pressed-->
+  <string name="onboarding_next">بعدی</string>
+  <!--NFC connection exchange onboarding / tutorial Done button label, appears on last slide and closes the tutorial when pressed-->
+  <string name="onboarding_done">تمومه</string>
+  <!--NFC connection exchange onboarding / tutorial slide text-->
+  <string name="psiphon_bump_help_1">اگه گیر کردی و نمی‌تونی وصل شی، یه رفیق پیدا کن که با موفقیت وصل شده و می‌تونه اطلاعات اتصال رو با NFC بفرسته برات.</string>
+  <!--NFC connection exchange onboarding / tutorial slide text, do not translate or transliterate 'Psiphon Bump'-->
+  <string name="psiphon_bump_help_2">مطمئن شو اپ روی اون یکی دستگاه باز و وصله و علامت NFC Bump تو نوار بالاش دیده می‌شه.</string>
+  <!--NFC connection exchange onboarding / tutorial slide text, do not translate or transliterate 'Psiphon Bump'-->
+  <string name="psiphon_bump_help_3">وقتی NFC Bump روی دستگاه خودت باز شد و اپ روی اون یکی هم باز و وصله، گوشی‌ها رو بچسبون به هم تا اطلاعات اتصال منتقل بشه.</string>
+  <!--NFC connection exchange onboarding / tutorial slide text, do not translate or transliterate 'Psiphon Bump'-->
+  <string name="psiphon_bump_help_4">وقتی اطلاعات منتقل شد و اپ روی دستگاه تو وصل شد، NFC Bump خودکار بسته می‌شه. تا وقتی وصل نشدی، بازم امتحان کن.</string>
+  <!--Title of the alert dialog prompting the user to enable NFC in system settings, do not translate or transliterate 'Psiphon Bump'-->
+  <string name="psiphon_bump_need_system_nfc_title">NFC Bump</string>
+  <!--Alert dialog message prompting the user to enable NFC in system settings, do not translate or transliterate 'Psiphon Bump'-->
+  <string name="psiphon_bump_need_system_nfc_message">برای استفاده از NFC Bump، NFC رو تو تنظیمات گوشی روشن کن.</string>
+  <!--Button that opens NFC related system settings-->
+  <string name="psiphon_bump_need_system_nfc_open_btn">برو تو تنظیمات</string>
+  <!--Approximate location permission rationale alert title.-->
+  <string name="location_permission_rationale_title">موقعیت تقریبی</string>
+  <!--Approximate location permission rationale alert text. The format qualifier %s will be replaced by the app name, either 'Psiphon' or 'Psiphon Pro'-->
+  <string name="location_permission_rationale_text">بیزحمت به %s اجازه بده موقعیت تقریبی‌ت رو ببینه. از این اطلاعات برای بهتر کردن شبکه استفاده می‌کنیم و دقتش حدوداً تو محدوده ۳ کیلومتر مربعه.</string>
+  <!--Snack bar message shown when an app update is downloaded and ready to be installed-->
+  <string name="app_update_ready_to_install">آپدیت آماده نصبه</string>
+  <!--Snack bar action button text to install the downloaded app update-->
+  <string name="app_update_restart">نصب کن</string>
+  <!--Generic toast message shown when an app update fails to download or install-->
+  <string name="app_update_error">آپدیت نشد</string>
+
+  <!-- Stealth Mode / App Disguise -->
+  <string name="preference_category_stealth_title">حالت مخفی</string>
+  <string name="preference_disguise_identity_title">ظاهر اپ</string>
+  <string name="preference_disguise_identity_summary">آیکون و اسم اپ رو تو صفحه اصلی عوض کن</string>
+  <string name="preference_stealth_notifications_title">اعلان‌های مخفی</string>
+  <string name="preference_stealth_notifications_summary">اعلان‌ها رو متناسب با ظاهری که انتخاب کردی نشون بده</string>
+  <string name="disguise_identity_default">شیر و خورشید (پیش‌فرض)</string>
+
+  <string name="disguise_name_calculator">ماشین‌حساب</string>
+  <string name="disguise_name_weather">هواشناسی</string>
+  <string name="disguise_name_notes">یادداشت‌ها</string>
+  <string name="disguise_name_clock">ساعت</string>
+
+  <string name="disguise_notif_calculator_connected">آماده</string>
+  <string name="disguise_notif_calculator_connecting">داره حساب می‌کنه\u2026</string>
+  <string name="disguise_notif_weather_connected">هواشناسی آپدیت شد</string>
+  <string name="disguise_notif_weather_connecting">داره پیش‌بینی رو آپدیت می‌کنه\u2026</string>
+  <string name="disguise_notif_notes_connected">یادداشت‌ها همگام شدن</string>
+  <string name="disguise_notif_notes_connecting">داره همگام می‌کنه\u2026</string>
+  <string name="disguise_notif_clock_connected">زنگ تنظیم شد</string>
+  <string name="disguise_notif_clock_connecting">داره ساعت رو همگام می‌کنه\u2026</string>
+
+  <string name="disguise_switch_warning">آیکون و اسم اپ چند ثانیه دیگه عوض می‌شه. ممکنه لازم باشه آیکون جدید رو خودت به صفحه اصلی اضافه کنی.</string>
+
+  <!-- Network Sharing / LAN Proxy -->
+  <string name="preference_category_network_sharing_title">اشتراک‌گذاری شبکه</string>
+  <string name="preference_share_proxy_title">پروکسی رو تو شبکه به اشتراک بذار</string>
+  <string name="preference_share_proxy_summary">به دستگاه‌های دیگه تو همون وای‌فای اجازه بده از طریق تونل این گوشی وصل شن</string>
+  <string name="preference_share_proxy_description">وقتی روشن کنی، پروکسی HTTP و SOCKS5 برای دستگاه‌های دیگه تو شبکه محلی‌ت در دسترس می‌شه. تنظیمات پروکسی اون دستگاه‌ها رو با آدرسی که تو صفحه اصلی نشون می‌دیم ست کن.</string>
+  <string name="preference_share_proxy_socks_port_title">پورت پروکسی SOCKS5</string>
+  <string name="preference_share_proxy_socks_port_summary">اختیاریه. اگه خالی بذاری، خودش انتخاب می‌کنه.</string>
+  <string name="preference_share_proxy_http_port_title">پورت پروکسی HTTP</string>
+  <string name="preference_share_proxy_http_port_summary">اختیاریه. اگه خالی بذاری، خودش انتخاب می‌کنه.</string>
+  <string name="preference_share_proxy_username_title">اسم کاربری پروکسی</string>
+  <string name="preference_share_proxy_username_summary">اختیاریه. اگه نمی‌خوای رمز داشته باشه، اسم کاربری و رمز رو خالی بذار.</string>
+  <string name="preference_share_proxy_password_title">رمز پروکسی</string>
+  <string name="preference_share_proxy_password_summary">اختیاریه. اگه نمی‌خوای رمز داشته باشه، اسم کاربری و رمز رو خالی بذار.</string>
+  <string name="share_proxy_security_warning_title">هشدار امنیتی</string>
+  <string name="share_proxy_security_warning_message">با روشن کردن اشتراک‌گذاری شبکه، پروکسی برای همه دستگاه‌های وای‌فای‌ت در دسترس می‌شه.\n\nهر دستگاهی تو همون شبکه می‌تونه ترافیکش رو از تونل تو رد کنه.\n\nفقط تو شبکه‌های مورد اعتماد روشن کن.</string>
+  <string name="lan_proxy_http_address">پروکسی HTTP: %1$s:%2$d</string>
+  <string name="lan_proxy_socks_address">پروکسی SOCKS5: %1$s:%2$d</string>
+  <string name="lan_proxy_username">اسم کاربری: %1$s</string>
+  <string name="lan_proxy_password">رمز: %1$s</string>
+  <string name="lan_proxy_sharing_active">اشتراک‌گذاری شبکه روشنه</string>
+  <string name="lan_proxy_configure_hint">تنظیمات پروکسی اون دستگاه‌ها رو با این آدرس‌ها ست کن</string>
+  <string name="log_lan_sharing_enabled">اشتراک‌گذاری شبکه روشن شد — پروکسی تو شبکه محلی در دسترسه</string>
+
+  <!-- CDN IP Scanner -->
+  <string name="cdn_ip_scanner_preference_title">اسکنر IP تمیز CDN</string>
+  <string name="cdn_ip_scanner_preference_summary">خودکار IPهای سالم و پایدار CDN رو پیدا کن</string>
+  <string name="cdn_ip_scanner_activity_title">اسکنر IP تمیز CDN</string>
+  <string name="cdn_ip_scanner_sni_hint">SNI (مثلاً pypi.org)</string>
+  <string name="cdn_ip_scanner_sni_required">یه SNI بنویس</string>
+  <string name="cdn_ip_scanner_start">شروع اسکن</string>
+  <string name="cdn_ip_scanner_stop">نگه دار</string>
+  <string name="cdn_ip_scanner_add_to_cdn">انتخاب‌شده‌ها رو به CDN اضافه کن</string>
+  <string name="cdn_ip_scanner_idle_hint">برای شروع، بزن رو «شروع اسکن»</string>
+  <string name="cdn_ip_scanner_progress">اسکن %1$d از %2$d — %3$d تا IP سالم پیدا شد</string>
+  <string name="cdn_ip_scanner_done">اسکن تموم شد. %1$d تا IP سالم پیدا شد.</string>
+  <string name="cdn_ip_scanner_no_results">هیچ IP سالمی پیدا نشد. یه بار دیگه امتحان کن.</string>
+  <string name="cdn_ip_scanner_select_at_least_one">حداقل یه IP انتخاب کن</string>
+  <string name="cdn_ip_scanner_added_success">%1$d تا IP به لیست CDN اضافه شد. وقتی برگردی، تونل خودکار ریستارت می‌شه.</string>
+  <string name="cdn_ip_scanner_time_format">%1$d میلی‌ثانیه</string>
+
+</resources>
